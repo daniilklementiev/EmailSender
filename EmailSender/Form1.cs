@@ -18,7 +18,7 @@ namespace EmailSender
             mailMessage.Body = "<h2>Письмо-тест работы smtp-клиента</h2>"; // тело сообщения
             mailMessage.IsBodyHtml = true; // письмо в виде html
             smtp = new SmtpClient("smtp.gmail.com", 587); // создаем клиента для отправки сообщений
-            smtp.Credentials = new NetworkCredential("testprogramcsharp@gmail.com", "232345232345"); // присваиваем логин и пароль
+            smtp.Credentials = new NetworkCredential("testprogramcsharp@gmail.com", "123456"); // присваиваем логин и пароль
             smtp.EnableSsl = true; // включаем протокол ssl
             InitializeComponent();
         }
