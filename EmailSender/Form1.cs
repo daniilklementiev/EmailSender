@@ -5,10 +5,10 @@ namespace EmailSender
 {
     public partial class Form1 : Form
     {
-        private MailAddress from;           // отправитель - sender
-        private MailAddress to;             // получатель - recipient
-        private MailMessage mailMessage;    // сообщение - message
-        private SmtpClient smtp;            // клиент для отправки сообщений - client
+        private MailAddress from;           // sender
+        private MailAddress to;             // recipient
+        private MailMessage mailMessage;    // message
+        private SmtpClient smtp;            // client
 
         public Form1()
         {
