@@ -9,6 +9,7 @@ namespace EmailSender
         private MailAddress to;             // получатель
         private MailMessage mailMessage;    // сообщение
         private SmtpClient smtp;            // клиент для отправки сообщений
+        
         public Form1()
         {
             from = new MailAddress("testprogramcsharp@gmail.com", "Daniil"); // отправитель
